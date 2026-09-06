@@ -57,3 +57,6 @@ Equipment art is now 50 separate transparent PNGs extracted around connected for
 
 ## v9
 Enlarged equipment and biome artwork inside the existing gray panels. Object-fit contain preserves full images.
+
+## v10: leaderboard and transparent equipment panels
+Removed gray backgrounds behind weapon/ammo pictures. Added a Leaderboard tab for level, coins, prestige and tribe level. See bot-integration/SETUP.md for the SQLite-to-JSON export. Real rankings require running that exporter on the bot host and publishing leaderboard.json. This package has an honest empty state until then.
