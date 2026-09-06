@@ -36,3 +36,18 @@ Keep images.js and catalog.js beside index.html. The catalogs render without Jav
 The multi-page site now follows the supplied reference: black/white surfaces, Syne display headings, Martian Mono labels, thin borders, spacious sections, a dot-grid welcome backdrop, scroll progress and subtle section reveals. theme.css contains the visual overrides; site.js contains the small progressive enhancements. No build is needed. Include all CSS and JS files.
 
 Google Fonts is the only added external asset service; privacy.html discloses these requests. To operate fully offline, remove the three Google Fonts link elements from each HTML head; system fallbacks remain usable. JavaScript-disabled and reduced-motion visitors can still read and navigate every page. Animal and equipment picture slots remain empty and use images.js when you add assets.
+
+## Equipment icons (v5)
+All 21 weapon/tool and 29 ammo cards now show the supplied transparent artwork. The original image is preserved in assets/equipment-sprites.png and displayed using CSS sprite positions, so there are no separate crops to maintain. The first 21 cells map to weapons in code order and the remaining 29 to ammo in code order (left to right, top to bottom). The icons work without JavaScript. Keep the original sheet dimensions and layout when replacing this asset.
+
+Animal and biome slots remain blank. To override any equipment icon, put an individual image path in images.js under its exact item name. A successfully loaded individual image replaces the sprite; a missing image leaves the sprite visible.
+
+## Reference integration (v6)
+Incorporates the supplied friend's stacked title, numbered game-loop rows, inverted getting-started panel, and closing camp section. Catalog tabs and data remain intact. Text and labels use brighter foregrounds; weapon and ammo art sits on a light slate backdrop so black outlines remain visible. The image file itself remains transparent and unchanged. Animal slots remain empty.
+
+The uploaded Vite HTML references src/main.ts and src/legal.ts, which were not supplied. This package adapts the reference into the complete static version instead of shipping unresolved source references. Upload all extracted files as before; no package installation or build is needed.
+
+## Animation and demo integration (v7)
+Added the supplied demo.mp4, demo-poster.jpg and favicon.svg. The welcome page has a native, user-controlled video player (no autoplay). Adapted the supplied main.ts dot-field, scope crosshair and text-scramble functions into effects.js for the existing static pages. Added an accessible expanding mobile menu, back-to-top action and active policy-section highlighting. Reduced-motion settings suppress decorative motion. Search, catalog data, bright text, light equipment backdrops, and separate tabs are retained.
+
+The supplied demo and poster are included unchanged. Review any visible Discord messages/usernames in the recording before making it public. The source remains plain HTML/CSS/JS; no Vite dependencies are required.
