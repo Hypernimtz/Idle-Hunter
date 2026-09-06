@@ -1,5 +1,0 @@
-# Append these to your EXISTING token.env. Keep the existing TOKEN line.
-LEADERBOARD_URL=https://YOUR-SERVICE.onrender.com/api/leaderboard
-LEADERBOARD_PUSH_TOKEN=PASTE_THE_SAME_PRIVATE_VALUE_YOU_SET_IN_RENDER
-# Optional: comma-separated Discord user IDs to omit from all hunter lists.
-# LEADERBOARD_EXCLUDE_IDS=123456789,987654321
