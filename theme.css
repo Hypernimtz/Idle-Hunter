@@ -13,3 +13,8 @@ body{color:#eceff3}.intro,.steps p,.command p,.card p,.faq p,.feature-strip span
 
 /* Individual artwork, no sprite-grid offsets. */
 .picture-slot.has-custom-image{display:flex;justify-content:center;align-items:center;background:#899db4;min-height:170px}.picture-slot.has-custom-image img{display:block;width:auto;height:auto;max-width:140px;max-height:140px;object-fit:contain;padding:6px}.picture-slot[data-kind="biomes"] img{max-width:110px;max-height:110px}.demo-frame video{display:block;min-height:250px}video::-webkit-media-controls{display:none!important}
+
+/* v9: larger art inside the existing gray panels, without cropping. */
+.picture-slot.has-custom-image img{width:calc(100% - 24px);height:calc(100% - 16px);max-width:240px;max-height:174px;object-fit:contain;padding:0}
+.picture-slot[data-kind="biomes"] img{width:calc(100% - 24px);height:calc(100% - 16px);max-width:220px;max-height:174px;object-fit:contain}
+@media(max-width:560px){.picture-slot.has-custom-image img{max-height:164px}}

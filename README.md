@@ -54,3 +54,6 @@ The supplied demo and poster are included unchanged. Review any visible Discord 
 
 ## Media repair v8
 Equipment art is now 50 separate transparent PNGs extracted around connected foreground shapes, rather than fixed grid cells. HTML loads all equipment and 13 supplied biome images directly, even without JavaScript. Animals remain blank. Demo is muted, autoplaying and looping with no controls. Some browser/device autoplay policies may still require an initial interaction. Replace the full site including assets; URLs are versioned to avoid stale cached styles.
+
+## v9
+Enlarged equipment and biome artwork inside the existing gray panels. Object-fit contain preserves full images.
