@@ -51,3 +51,6 @@ The uploaded Vite HTML references src/main.ts and src/legal.ts, which were not s
 Added the supplied demo.mp4, demo-poster.jpg and favicon.svg. The welcome page has a native, user-controlled video player (no autoplay). Adapted the supplied main.ts dot-field, scope crosshair and text-scramble functions into effects.js for the existing static pages. Added an accessible expanding mobile menu, back-to-top action and active policy-section highlighting. Reduced-motion settings suppress decorative motion. Search, catalog data, bright text, light equipment backdrops, and separate tabs are retained.
 
 The supplied demo and poster are included unchanged. Review any visible Discord messages/usernames in the recording before making it public. The source remains plain HTML/CSS/JS; no Vite dependencies are required.
+
+## Media repair v8
+Equipment art is now 50 separate transparent PNGs extracted around connected foreground shapes, rather than fixed grid cells. HTML loads all equipment and 13 supplied biome images directly, even without JavaScript. Animals remain blank. Demo is muted, autoplaying and looping with no controls. Some browser/device autoplay policies may still require an initial interaction. Replace the full site including assets; URLs are versioned to avoid stale cached styles.
